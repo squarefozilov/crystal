@@ -1,0 +1,18 @@
+	if ($(".move").children().length == 0){
+     		 
+     		 // clear out the other paragraphs and let user know they won.
+     		 $(".youAttacked").empty();
+     		 $(".attackedBack").empty();
+     		 $(".youDefeated").empty();
+     		 $(".noEnemy").empty();
+     		 $(".youWon").html("You Won!!!! GAME OVER!!!"); 
+
+     		 // show the restart button. 
+     		 $(".restart").show();
+
+     		 // When you click "Restart" the game begins again. 
+     		 $(".restart").click(function(){
+     		 	location.reload(true);
+     		 })
+     		      			
+     		}

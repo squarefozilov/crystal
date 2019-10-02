@@ -1,16 +1,25 @@
+.stars{
+	background:#98bf21;
+	height:100px;
+	width:100px;
+	 
+}
 
-body{
- 
+.img{
+	width: 70px;
+	height: 7px;
 }
 div{
 	background-color: white;
-	margin: 10px;
-	width: 25%
+	margin: 5px;
+ 
 }
 div{
 	border: solid 2px antiquewhite;
 	padding: 10px;
+	float: left;
 }
+
 h1, h3, span{
 	font-weight: bold;
 	text-align: center;
@@ -29,9 +38,7 @@ ul {
 div.header, div.gems{
 	background-color: #e0e0eb;
 }
-div.header, div.instructions{
-	width: 50%;
-}
+ 
 /* Classes */
 .numberToMatch, .winsAndLosses{
 	float: left;
@@ -46,19 +53,7 @@ div.header, div.instructions{
 	clear: both;
 }
 .gemImage{
-	height: 60px;
-	margin: 10px;
+	height: 220px;
+	 
 }
-/* IDs */
-#blue{
-	color: #3092c7;
-}
-#green{
-	color: #00aa59;
-}
-#red{
-	color: #ec4b5f;
-}
-#yellow{
-	color: #ffc225;
-}
+ 
