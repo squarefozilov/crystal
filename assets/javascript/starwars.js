@@ -84,6 +84,8 @@ var divUclicl = 0;
 
     if(!firtPerson){
        firtPerson = this.innerHTML;
+      
+      
        $(this).animate({
         left: '250px',
         opacity: '0.5',
